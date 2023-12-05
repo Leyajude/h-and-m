@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Serif+Display&family=Ephesis&family=Kanit:wght@300&family=PT+Sans+Narrow&family=Permanent+Marker&family=Roboto:ital@1&display=swap');
+
+H1{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.681);
+    background-color:white;
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif; 
+    font-family: 'DM Serif Display', serif;
+    height: 100px;
+     margin-bottom: 50px; 
+}
+ p{ 
+     background-color:white; 
+    height: 100px; 
+     padding: 5px; 
+     text-align: center; 
+     /* justify-content: space-evenly;  */
+     font-size: 22px;
+
+} 
+a{
+    text-align:center;
+    text-decoration: none;
+    color: rgb(9, 4, 4);
+    font-size: 25px;
+    background-color: white;
+
+}
+.row{
+    background-color:white;
+    margin-top: -1px;
+    height: 800px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-left: -46px;
+
+
+}
+
+    
+/* img{
+
+        height: 500px;  
+      width: 300; 
+     
+     
+} */
+.row1{
+    background-color:white;
+    margin-top: 241px;
+    height: 800px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+/* .gg{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+.row3{
+    background-color:white;
+    margin-top: 395px;
+    height: 800px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+
+} 
+.col{ 
+    border: 3px rgb(189, 188, 186) solid; 
+  height: 300px; 
+     width: 200px; 
+     border: rgb(217, 213, 213); 
+     margin-top: 100px; 
+     } 
+     .col1{ 
+         background-color: rgb(232, 232, 229); 
+    
+    } 
+     .col2{ 
+         background-color: rgb(213, 213, 210); 
+     } 
+     .col3{ 
+        background-color: rgb(219, 220, 218); 
+    } 
+    .col4{ 
+         background-color: rgb(233, 231, 231)
+    }
+    .row4{
+        background-color:white;
+        margin-left: 76px;
+        height: 600px;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        flex-wrap: wrap;
+    
+    }
+    h3{
+        text-align: center;
+        color: rgba(187, 62, 62, 0.681);
+        background-color:white;
+        font-size: 62px;
+        font-family: 'Roboto', sans-serif; 
+        font-family: 'DM Serif Display', serif;
+    }
+    img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    @media(max-width:500px){
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+         .row3{
+            display: flex;
+            flex-wrap: wrap;
+        } 
+        .row4{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    h4{
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 32px;
+        color: rgb(9, 8, 8);
+        background-color: rgb(234, 230, 230);
+    }
+    @media(max-width:500px){
+            .row{
+                width:300px;
+            }
+    }
